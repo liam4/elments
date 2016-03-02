@@ -1,3 +1,8 @@
+# elments
+
+Better element templating.
+
+```js
 elm.from('head')
 
   // <link rel='stylesheet' href='colors.css' />
@@ -36,3 +41,8 @@ elm.from('body')
   .add(elm.create('p')
     .class('red')
     .add(elm.text('Are you feeling red today?')));
+```
+
+Doesn't that look great already?
+
+Simply download and include [elments.js](https://raw.githubusercontent.com/liam4/elments/gh-pages/elments.js) in your webpage and enjoy.

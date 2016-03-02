@@ -11,7 +11,7 @@ elm.from('body')
   .add(elm.create('h1')
     .add(elm.text('Hello')))
 
-  // <p><i>In a world where we don't use HTML templates...</i> Use elm!</i></p>
+  // <p><i>In a world where we don't use HTML templates...</i> Use elm!</p>
   .add(elm.create('p')
     .add(elm.create('i').add(elm.text('In a world where we don\'t use HTML templates...')))
     .add(elm.text(' Use elm!')))

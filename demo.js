@@ -1,3 +1,5 @@
+var start = Date.now();
+
 elm.from('head')
 
   // <link rel='stylesheet' href='colors.css' />
@@ -36,3 +38,9 @@ elm.from('body')
   .add(elm.create('p')
     .class('red')
     .add(elm.text('Are you feeling red today?')));
+
+elm.from('body')
+  .add(elm.create('p')
+    .add(elm.text('This page took '))
+    .add(elm.text(Date.now() - start))
+    .add(elm.text(' milliseconds to generate (on your client side).')));
